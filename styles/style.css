@@ -14,8 +14,18 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
-  color: #9a86a4;
+  color: #eb76b6;
 }
 nav ul li a:hover {
   border-bottom: 2px solid #b1bce6;
+}
+
+.banner {
+  background: url(../../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
 }/*# sourceMappingURL=style.css.map */
