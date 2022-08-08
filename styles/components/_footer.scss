@@ -1,0 +1,26 @@
+@import "../abstract/variaveis";
+#footer {
+  align-items: center;
+  text-align: center;
+  font-size: $tamanho-do-texto/2;
+  border-top: 2px solid $cor-primaria;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  i {
+    color: red;
+  }
+}
+#toalha {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  .img-toalha {
+    align-items: center;
+    max-width: 300px;
+  }
+  .texto-toalha {
+    text-align: center;
+    max-width: 400px;
+    line-height: 25px;
+  }
+}
